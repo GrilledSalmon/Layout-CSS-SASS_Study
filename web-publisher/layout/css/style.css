@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* 레이아웃 */
+#wrap {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+#header {
+  height: 325px;
+  background: #111;
+  line-height: 325px;
+}
+#contents {
+  height: 800px;
+  background: #222;
+}
+#footer {
+  height: 200px;
+  background: #333;
+  line-height: 200px;
+}
+
+/*컨텐츠 레이아웃 */
+#cont_nav {
+  height: 200px;
+  background: #444;
+  line-height: 200px;
+}
+#cont_tit {
+  height: 200px;
+  background: #555;
+  line-height: 200px;
+}
+#cont_ban {
+  height: 200px;
+  background: #666;
+  line-height: 200px;
+}
+#cont_cont {
+  height: 200px;
+  background: #777;
+  line-height: 200px;
+}
+
+.container {
+  width: 990px;
+  margin: 0 auto;
+  height: inherit;
+  background: rgba(255, 255, 255, 0.3);
+}
